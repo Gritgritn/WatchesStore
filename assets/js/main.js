@@ -48,15 +48,20 @@ let testimonialSwiper = new Swiper(".testimonial-swiper", {
 });
 
 /*=============== NEW SWIPER ===============*/
+let newSwiper = new Swiper(".new-swiper", {
+    spaceBetween: 24,
+    loop: 'true',
 
+    breakpoints: {
+        576: {
+            sliderPerView: 2,
+        },
+        768: {
+            sliderPerView: 3,
+        },
+        1024: {
+            sliderPerView: 4,
+        },
+    }
+});
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
-
-
-/*=============== SHOW SCROLL UP ===============*/
-
-
-/*=============== SHOW CART ===============*/
-
-
-/*=============== DARK LIGHT THEME ===============*/
