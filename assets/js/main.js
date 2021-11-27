@@ -64,4 +64,3 @@ let newSwiper = new Swiper(".new-swiper", {
         },
     }
 });
-
