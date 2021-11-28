@@ -54,15 +54,15 @@ let newSwiper = new Swiper(".new-swiper", {
 
     breakpoints: {
         576: {
-            sliderPerView: 2,
+          slidesPerView: 2,
         },
         768: {
-            sliderPerView: 3,
+          slidesPerView: 3,
         },
         1024: {
-            sliderPerView: 4,
+          slidesPerView: 4,
         },
-    }
+    },
 });
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
